@@ -14,7 +14,7 @@
     font-size: 40px;
   }
   </style>
-  <h1>NFL 49ers Fan Heatmap</h1>
+  <h1>Notorious BIG Influence Map</h1>
   <div id="map_election"></div>
  
      
@@ -25,19 +25,20 @@ var election = new Datamap({
   geographyConfig: {
     highlightBorderColor: '#bada55',
    popupTemplate: function(geography, data) {
-      return '<div class="hoverinfo">' + geography.properties.name + ' 49ers Fans Percentage:' +  data.electoralVotes + ' '
+      return '<div class="hoverinfo">' + geography.properties.name + ' Notorious BIG ' +  data.electoralVotes + ' '
     },
     highlightBorderWidth: 3
   },
 
   fills: {
   'Washington': 'rgba(169, 192, 222, 0.22)',
-  'Republican': 'rgba(169, 192, 222, 0.42)',
-  'Democrat': 'rgba(169, 192, 222, 0.42)',
+  'california': 'rgba(169, 192, 245, 1)',
+  'Republican': 'rgba(169, 192, 222, 0.72)',
+  'Democrat': 'rgba(169, 192, 222, 0.72)',
   'Heavy Democrat': 'rgba(169, 192, 222, 0.42)',
-  'Light Democrat': 'rgba(169, 192, 222, 0.42)',
+  'Light Democrat': 'rgba(169, 192, 222, 0.72)',
   'Heavy Republican': 'rgba(169, 192, 222, 0.92)',
-  'Light Republican': 'rgba(169, 192, 222, 0.62)',
+  'Light Republican': 'rgba(169, 192, 222, 1)',
   defaultFill: 'rgba(169, 192, 222, 0.42)'
 },
 data:{
@@ -98,7 +99,7 @@ data:{
       "electoralVotes": 32
   },
   "ME": {
-      "fillKey": "Democrat",
+      "fillKey": "california",
       "electoralVotes": 32
   },
   "MA": {
@@ -134,7 +135,7 @@ data:{
       "electoralVotes": 32
   },
   "NV": {
-      "fillKey": "Light Republican",
+      "fillKey": " Republican",
       "electoralVotes": 32
   },
   "NH": {
@@ -142,12 +143,12 @@ data:{
       "electoralVotes": 32
   },
   "NJ": {
-      "fillKey": "Democrat",
+      "fillKey": "california",
       "electoralVotes": 32
   },
   "NY": {
-      "fillKey": "Democrat",
-      "electoralVotes": 32
+      "fillKey": "california",
+      "electoralVotes": 90
   },
   "ND": {
       "fillKey": "Republican",
@@ -158,7 +159,7 @@ data:{
       "electoralVotes": 32
   },
   "OH": {
-      "fillKey": "UNDECIDED",
+      "fillKey": "california",
       "electoralVotes": 32
   },
   "OK": {
@@ -166,11 +167,11 @@ data:{
       "electoralVotes": 32
   },
   "OR": {
-      "fillKey": "Light Republican",
+      "fillKey": " Republican",
       "electoralVotes": 32
   },
   "PA": {
-      "fillKey": "Democrat",
+      "fillKey": "california",
       "electoralVotes": 32
   },
   "RI": {
@@ -206,7 +207,7 @@ data:{
       "electoralVotes": 32
   },
   "VT": {
-      "fillKey": "Democrat",
+      "fillKey": "california",
       "electoralVotes": 32
   },
   "WA": {
@@ -222,11 +223,11 @@ data:{
       "electoralVotes": 32
   },
   "CA": {
-      "fillKey": "Heavy Republican",
+      "fillKey": "Republican",
       "electoralVotes": 65
   },
   "CT": {
-      "fillKey": "Democrat",
+      "fillKey": "california",
       "electoralVotes": 32
   },
   "AK": {
