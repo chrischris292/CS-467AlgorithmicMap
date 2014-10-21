@@ -23,7 +23,7 @@ mapInit(data, fills, document.getElementById('map_election'));
 
 
 
-//Helper function
+//Helper functions
 //Creates map
 function mapInit(dataInput, fillInput, location){
 var election = new Datamap({
